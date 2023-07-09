@@ -1,7 +1,9 @@
 jest:
 		npx jest --detectOpenHandles --forceExit --colors
+		
 lint:
 		npx eslint .
+
 dev:
 	npx webpack serve
 
